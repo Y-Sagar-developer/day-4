@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>facebook Login Page</title>
+    <link rel="icon" type="image/x-icon" href="./fb.png">    
+
+    <style>
+    form {
+ 
+        border-top: 10px solid #f1f1f1;
+        border-left: 500px solid#f1f1f1;
+        border-right: 500px solid #f1f1f1;
+        border-bottom: 10px solid #f1f1f1;
+      }
+      img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 200px; */
+        /* height: 200px; */
+      }
+      .container{
+        padding: 25px;
+    }
+     
+      
+
+    </style>
+  </head>
+  <body>
+    <fieldset>
+    <img src="./facebookname.png" alt="facebook" />
+
+    <form action="./fbhomepage.html">
+        <div class="container">
+
+      <h2>Login To Facebook</h2>
+      <label for="mail/mobile"><strong>Username:<strong></label><br>
+
+      <input
+        type="text"
+        name="mail/mobile"
+        id="mail/mobile"
+        required
+        placeholder="Email address or phone number"
+      /><br /><br />
+      <label for="password"><strong>Password:</strong></label><br>
+      <input type="password" name="password" id="password" placeholder="Password"><br><br>
+
+      <input type="image" src="./facebooklogin.jpeg" width="250" height="70" alt="Login"><br>
+      <input type="submit" value="Forgot Password" formaction="./fbforget.html"><hr>
+      <button type="submit" formaction="./fbrigistration.html">Create New Account</button>
+    </fieldset>
+    </div>
+
+    </form>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create facebook account</title>
+    <link rel="icon" type="image/x-icon" href="./fb.png" />
+    <meta charset="UTF-8" />
+
+    <style>
+      form {
+        border-top: 10px solid #f1f1f1;
+        border-left: 500px solid#f1f1f1;
+        border-right: 500px solid #f1f1f1;
+        border-bottom: 10px solid #f1f1f1;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 200px; */
+        /* height: 200px; */
+      }
+      .container {
+        padding: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./facebookname.png" alt="facebook" />
+
+    <form action="./index.html">
+      <div class="container">
+        <h2>Create a New account</h2>
+
+        <label for="First"><strong>Enter First name:<strong></label><br>
+
+        <input
+          type="text"
+          name="First"
+          id="First"
+          placeholder="First name"
+        /><br /><br />
+        <label for="last"><strong>Enter Last name:</strong></label
+        ><br />
+        <input
+          type="text"
+          name="last"
+          id="last"
+          placeholder="last name"
+        /><br /><br />
+
+        <label for="mail">Email Address:</label><br />
+        <input
+          type="email"
+          name="mail"
+          id="mail"
+          placeholder="xxxxxx@gmail.com"
+        /><br /><br />
+
+        <label for="phone">Mobile Number:</label><br />
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="9550414094"
+          readonly
+        /><br /><br />
+
+        <label for="DOB">Date Of Birth:</label><br />
+        <input type="date" id="DOB" name="DOB" /><br /><br />
+
+        <label for="gender">Choose a gender:</label>
+
+        <select id="gender">
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="other">other</option>
+        </select><br><br>
+        <input type="submit" name="register" id="register" value="register" />
+      </div>
+    </form>
+  </body>
+</html>
